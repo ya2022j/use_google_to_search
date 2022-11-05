@@ -77,7 +77,7 @@ function browserRedirect() {
 var now = -1;
 var resLength = 0;
 var thisSearch = "https://www.google.com/search?q=";
-var thisSearchIcon = "/static/images/google.png";
+var thisSearchIcon = "/static/google.png";
 var storage = window.localStorage;
 if (!storage.stopHot) {
   storage.stopHot = true;
