@@ -183,7 +183,7 @@ $(function () {
       },
             {
         name: "YahooJP",
-        img: "/static/images/yahoojp.png",
+        img: "/static/images/yahoojp.PNG",
         url: "https://search.yahoo.co.jp/search?p="
       },
 
@@ -195,7 +195,7 @@ $(function () {
 
       {
         name: "Bing",
-        img: "/static/images/bing.png",
+        img: "/static/images/bing.PNG",
         url: "https://bing.com/search?q="
       },
       {
@@ -206,7 +206,7 @@ $(function () {
 
 
       {
-        name: "百度",
+        name: "Baidu",
         img: "/static/images/baidu.png",
         url: "https://www.baidu.com/s?wd="
       },
