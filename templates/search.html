@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Maru Kensaku</title>
+    <meta name="keywords" content="Maru Kensaku 検索 search" />
+    <meta
+      name="description"
+      content="Maru Kensaku、あなたの生活のよき助手"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/static/css/search_style.css" />
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script>
+  </head>
+
+  <style>
+
+
+    .svg-icon.search-icon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  /* On hover: blue strokes */
+  /* On click: thicker black strokes  */
+}
+.svg-icon.search-icon:focus .search-path, .svg-icon.search-icon:hover .search-path {
+  stroke: #003399;
+}
+.svg-icon.search-icon:active .search-path {
+  stroke: #003399;
+  stroke-width: 2px;
+}
+</style>
+  <body>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <div
+      id="content"
+      data-customize="true"
+      data-customtheme="true"
+      class="default-bg"
+    >
+      <div class="main-index">
+        <div class="container content-box">
+
+
+  <div class="logoo" style="   text-align: center;">
+    <img src="/static/images/searchLogo.png" height="100px"
+              /></a>
+            </div>
+
+            <div class="search">
+              <div class="search-box">
+                <img
+                  class="search-icon"
+                  src="/static/images/google.png"
+                /><input
+                  type="text"
+                  id="txt"
+                  class="search-input"
+                  autofocus="autofocus"
+                /><button class="search-btn icon" id="search-btn">  <img src="/static/images/search-icons.png" height="44px"
+              />
+              </button>
+              </div>
+
+
+
+              <div class="box search-hot-text" id="box" style="display: none">
+                <ul></ul>
+              </div>
+              <div class="search-engine" style="display: none">
+
+                <ul class="search-engine-list">
+
+
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer class="footer text-center">
+      <div class="container"><p>Copyright ©2022 MaruKensaku</p></div>
+    </footer>
+    <script src="/static/js/search_list.js"></script>
+  </body>
+</html>
