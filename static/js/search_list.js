@@ -76,8 +76,8 @@ function browserRedirect() {
 })();
 var now = -1;
 var resLength = 0;
-var thisSearch = "https://www.baidu.com/s?wd=";
-var thisSearchIcon = "/static/baidu.png";
+var thisSearch = "https://www.google.com/search?q=";
+var thisSearchIcon = "/static/images/google.png";
 var storage = window.localStorage;
 if (!storage.stopHot) {
   storage.stopHot = true;
@@ -111,7 +111,7 @@ $("#txt").keyup(function (e) {
     $("#box").css("display", "block");
     $.ajax({
       type: "GET",
-      url: "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
+      url: "https://www.google.com/search?q=",
       async: true,
       data: dat,
       dataType: "jsonp",
